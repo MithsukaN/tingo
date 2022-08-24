@@ -1,0 +1,145 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+        /* top l&r bottom */
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+  /* --------------------------h3 In top--------------------------- */
+.middle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #ff4c68;
+}
+
+.middle:hover{
+    color: black;
+}
+  /* ----------------------------------------------------------------*/
+
+
+p{
+    color: #8f8f8f ;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight:bold ;
+}
+
+.nav-item{
+    padding:0 18px ;
+}
+
+.nav-link{
+    font-size:1.2rem ;
+    font-family: 'Montserrat';
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image{
+    width:19%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+}
+
+.feature-box{
+    text-align:center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom:1rem ;
+}
+
+.icon:hover{
+    height: 120px;
+}
+
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius:100% ;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding:7% 15% ;
+}
+
+#press{
+    background-color: #ef8172 ;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3% 2% ;
+}
